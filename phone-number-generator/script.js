@@ -8,7 +8,7 @@ function createPhoneNumber(numbers) {
   var formatted = `(${area}) ${first}-${second}`;
   return formatted;
 }
-//good alternate 
+// alternate approach
 // var format = "(xxx) xxx-xxxx";
 
 // for (var i = 0; i < numbers.length; i++) {

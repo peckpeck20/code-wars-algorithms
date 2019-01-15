@@ -1,4 +1,4 @@
-var test = "the-stealth-warrior";
+var test = "The-stealth-warrior";
 
 function toCamelCase(str) {
 
@@ -9,6 +9,7 @@ function toCamelCase(str) {
       console.log("UPPER")
     }
     if (firstLetter === firstLetter.toLowerCase()) {
+      console.log('LOWER')
 
       // let stringarray = str.split();
       // console.log(stringarray)
@@ -21,16 +22,12 @@ function toCamelCase(str) {
       //     result += str[i];
       //   }
       // }
-
-      var patt1 = /is(?= all)/;
-      var result = str.match(patt1);
-
-
-      console.log(result)
+      // var patt1 = /is(?= all)/;
+      // result = str.match(patt1);
     }
 
   }
-  //return firstLetter;
+  //return result;
 }
 
 console.log(toCamelCase(test))
